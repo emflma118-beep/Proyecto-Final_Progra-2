@@ -25,7 +25,7 @@ public class WaveConfig : ScriptableObject
 public struct EnemigoOleada
 {
     public PerfilEnemigo perfilEnemigo;
-    public int contador;
+    public int cantidadEnemy;
     public PatronAparicion patronA;
 }
 
@@ -33,7 +33,7 @@ public enum PatronAparicion
 {
     Secuencial,
     Simultaneo,
-    Explosivo
+    Rafaga
 }
 
 public enum OleadaCompletada

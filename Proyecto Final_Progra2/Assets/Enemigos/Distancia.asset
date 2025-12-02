@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10dbdd005f0d4794192021a97e386bfd, type: 3}
+  m_Name: Distancia
+  m_EditorClassIdentifier: 
+  nombre: Deadshot
+  vidaMax: 175
+  veloMov: 100
+  "da\xF1o": 200
+  puntos: 140
+  prefab: {fileID: 2762254203016467816, guid: 0cb7ab1274571dd4eb55d9b66ea08fbd, type: 3}
+  material: {fileID: 2100000, guid: 1184cacd5a4d28a40ba9268eebff8860, type: 2}
+  colorEnemigo: {r: 0.23137252, g: 0.28281623, b: 0.8862745, a: 1}
+  tipoEnemigo: 1
+  rangoAtaque: 10
+  tasaAtaque: 4

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e1eba71ff22c5439e19fd534cb3f78, type: 3}
+  m_Name: Oleada 1
+  m_EditorClassIdentifier: 
+  nombreOleada: Inicial
+  numeroOleada: 1
+  enemigo:
+  - perfilEnemigo: {fileID: 11400000, guid: 43de46268622db648aff11f710091ce5, type: 2}
+    cantidadEnemy: 3
+    patronA: 0
+  - perfilEnemigo: {fileID: 11400000, guid: c419ddf66cd2fc04d852f3fdb3bb1cda, type: 2}
+    cantidadEnemy: 10
+    patronA: 0
+  - perfilEnemigo: {fileID: 11400000, guid: 9a55efce5964a264a8cc8c9ea11c1537, type: 2}
+    cantidadEnemy: 2
+    patronA: 0
+  tiempoEntreSpawns: 5
+  duracionOleada: 20
+  tiempoAntesDeOleada: 5
+  jefeDeOleada: 0
+  oleadaCompleta: 0

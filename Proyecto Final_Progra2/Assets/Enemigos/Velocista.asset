@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10dbdd005f0d4794192021a97e386bfd, type: 3}
+  m_Name: Velocista
+  m_EditorClassIdentifier: 
+  nombre: Flash
+  vidaMax: 150
+  veloMov: 200
+  "da\xF1o": 100
+  puntos: 100
+  prefab: {fileID: 2762254203016467816, guid: e7f7f6c7721a30a4eb93ee3205cd7106, type: 3}
+  material: {fileID: 2100000, guid: 4146df5c13a1afd458fbefdd2fd3729d, type: 2}
+  colorEnemigo: {r: 0.8867924, g: 0.2300641, b: 0.26187098, a: 1}
+  tipoEnemigo: 2
+  rangoAtaque: 2
+  tasaAtaque: 5
